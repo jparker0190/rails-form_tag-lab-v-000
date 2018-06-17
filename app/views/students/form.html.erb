@@ -1,0 +1,9 @@
+<%= form_tag new_student_path do %>
+  <label>New Form:</label><br>
+  <%= text_field_tag :'studnet[title]' %><br>
+ 
+  <label>Form description:</label><br>
+  <%= text_area_tag :'student[description]' %><br>
+ 
+  <%= submit_tag "Submit Post" %>
+<% end %>
